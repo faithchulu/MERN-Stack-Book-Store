@@ -21,7 +21,7 @@ app.use(cors());
 
 app.get('/', (request, response)=>{
     console.log(request)
-    return response.status(243).send('Welcome to mern stack tutorial!');
+    return response.status(243).send('Welcome to mern stack book store backend server!');
 });
 
 app.use('/books', booksRoute); 
